@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<!-- En-tête de la page -->
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Première Page Web</title>
+
+	</head>
+
+	<body>
+		<!-- Corps de la page -->
+		<header>
+			
+		</header>
+		<h1>Bienvenue</h1>
+		<p>Bonjour et  <span class="salutations">bienvenue</span> sur mon premier site !</p>
+
+		<h2>Introduction</h2>
+        <p>Ceci est mon premier <mark><em>soyez attentif</em ></mark> s'il vous plaît</p>
+        <p>Dans ce paragraphe et ce qui suit on va utiliser et présenter les Bases du code html telque les<strong><em class="em2"> Balises, les listes, ... </em></strong></p>
+        
+        <h2>Ma liste à puces</h2>
+        ul comme Unordered list, li commme list
+		
+        <ul>
+        	<li>Puce1</li>
+        	<li>puce2</li>
+        	<li>puce3</li>
+        </ul>
+
+        <h2>Ma liste Numéroté</h2>
+        ol comme Ordered list, li commme list
+        <ol class="ListNum"> 
+        	
+        	<li>List Num 1</li>
+        	<li>List Num 2</li>
+        	<li>List Num 3</li>
+        </ol>
+
+        <h2>Les liens</h2>
+        <p>cliquer sur le lien absolu pour visiter le site <a href="https://openclassrooms.com" title="Accueil OpenClassrooms" target="_blank"> OpenClassrooms</a></p>
+        <p>Lien vers absolu ma <a href="page2.html"> Page2</a> du même dossier</p>
+        <p>Lien relatif vers ma <a href="E:\DevWebOC\Training\Projet2\Premiere_Page_Web\Lien relatif\page3.html"> Page3</a> du sous dossier</p>
+
+        <p>Lien vers l'ancre Renvoi directement sur le bloc correspondant dans la même page, soit les liens vers : <br />
+        	<a href="#Bloc1">Le Bloc 1</a><br />
+        	<a href="#Bloc2">Le Bloc 2</a><br />
+        	<a href="#Bloc3">Le Bloc 3</a>
+        </p>
+        <h3 id="Bloc1">Bloc1</h3>
+        	<a href="#Bloc2">Le Bloc 2</a><br />
+        	<a href="#Bloc3">Le Bloc 3</a>
+        <p>text Bloc1</p>
+        <p>text Bloc1</p>
+        <p>text Bloc1</p>
+		
+        <h3 id="Bloc2">Bloc2</h3>
+			<a href="#Bloc1">Le Bloc 1</a><br />
+			<a href="#Bloc3">Le Bloc 3</a>
+        <p>text Bloc2</p>
+        <p>text Bloc2</p>
+        <p>text Bloc2</p>    
+
+        <h3 id="Bloc3">Bloc3</h3>
+			<a href="#Bloc1">Le Bloc 1</a><br />
+			<a href="#Bloc2">Le Bloc 2</a>
+        <p>text Bloc3</p>
+        <p>text Bloc3</p>
+        <p>text Bloc3</p>
+        <p>text Bloc3</p>
+
+		
+		<h2>Insertion Images</h2>
+		
+		<p>
+		<img src="E:\DevWebOC\Training\Projet2\Premiere_Page_Web\img\Photo_Montagne_mini.PNG" class="imgfloat" alt="Photo_Montagne_JPG" />
+		 Insertion Image PNG à l'intérieure d'un paragraphe: <br />
+		 Insertion Image PNG à l'intérieure d'un paragraphe: <br />
+		 Insertion Image PNG à l'intérieure d'un paragraphe: <br />
+		 Insertion Image PNG à l'intérieure d'un paragraphe: <br />
+		</p>
+		<ol>
+		<li class="endfloat">Insertion Image PNG lien vers sa photo jpg : </li>
+		<a href="E:\DevWebOC\Training\Projet2\Premiere_Page_Web\img\Photo_Montagne.jpg"><img src="E:\DevWebOC\Training\Projet2\Premiere_Page_Web\img\Photo_Montagne_mini.PNG" alt="Photo_Montagne_JPG " /></a>
+		<li>Balise Figure Figcaption</li>
+		<figure>
+		<img src="E:\DevWebOC\Training\Projet2\Premiere_Page_Web\img\Photo_Montagne_mini.PNG" alt="Photo_Montagne_JPG" />
+		<figcaption>libellé image Montagne</figcaption>
+		</figure>
+		</ol>
+		<footer>
+
+		</footer>
+	</body>		
+</html>

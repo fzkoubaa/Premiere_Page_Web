@@ -1,0 +1,68 @@
+body
+{
+	background : url("fontneige.jpg") fixed no-repeat top right;
+	/*
+	background-color : black ;
+	color : white;
+	*/
+	
+}
+h1
+{
+	background-color : rgba(255,200,240,0.6);
+	font-size: xxx-large;
+	font-weight: bold;
+	color: blue;
+}
+
+h2
+{
+font-size: xx-large;
+font-weight: bold;
+
+}
+
+#Bloc1, #Bloc2
+{
+color: blue;
+}
+
+p
+{
+	font-family: Arial, times new roman, impact;
+	font-size:0.9em;
+	color: rgb(200, 81, 80);
+}
+
+.ListNum
+{
+	font-family: times new roman, Arial, impact;
+	font-size:1.2em;
+	font-weight: bold;
+	font-style : italic;
+	text-decoration: underline;
+	color: green;
+
+}
+
+.em2
+{
+color: green;
+}
+
+.salutations
+{
+    color: blue;
+	font-style: underline;
+}
+
+.imgfloat
+{
+    float: left;
+}
+
+.endfloat
+{
+	clear: left;
+	clear: both;
+}
